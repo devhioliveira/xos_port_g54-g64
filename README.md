@@ -27,7 +27,7 @@
 - Removed AOD (not needed for IPS panels)
 - Added Transsion Flagship (XOS) – credit: @nyello08
 - Flagship Animations Enabled – credit: @nyello08
-- Preferred Network 4G/5G Enabled – credit: @devhioliveira10
+- Preferred Network 4G/5G Enabled – credit: @devhioliveira10 made the changes, and @Not_psyco discovered the solution and helped
 - Lockscreen Wallpaper Fixed – credit: @devhioliveira10
 - Included OrangeFox (OFOX) – credit: @ussr_1674 (Soviet)
 - Removed HBM mode (not needed for IPS panels) - credit: @devhioliveira10
