@@ -117,7 +117,7 @@ Talk to us on https://t.me/devhioliveirasupport
 
 ### 🛠️ SukiSU Ultra & About Device
 <p align="center">
-  <img src="screenshots/network.jpg" width="45%" />
+  <img src="screenshots/sukisu.jpg" width="45%" />
   <img src="screenshots/about.jpg" width="45%" />
 </p>
 
