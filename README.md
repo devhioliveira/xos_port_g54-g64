@@ -1,6 +1,10 @@
 <h1 align="center">📱 XOS 15.0.3.127 Stable – Moto G54 5G - Moto G64 5G</h1>
 
 <p align="center">
+  <img src="screenshots/banner.jpg" alt="XOS 15 Banner" />
+</p>
+
+<p align="center">
   <b>Firmware Required:</b> V1TDS35H.83-20-5-6<br>
   <b>Version:</b> 15.0.3.127 EU Stable<br>
   <b>Base Device:</b> Infinix Note 40 5G<br>
