@@ -43,7 +43,14 @@
 - 🎮 Game Mode with Turbo Mode fully integrated  
 - 📦 Extras folder including useful modules and applications  
 - 📊 Dynamic Bar support  
-- 📷 2K camera recording support  
+- 📷 2K camera recording support
+- ✅ Play Integrity fix  
+- 🧩 Pixel & property spoofing  
+- ⚙️ Per-app spoofing manager  
+- ☁️ Google Photos unlimited backup  
+- 🧰 Payload dumper integration  
+- 🎮 Unlock high-FPS modes in games  
+- 🧾 Modify application data files safely  
 
 - 🤖 **Infinix AI Features**
   - **Folax Smart Touch**
