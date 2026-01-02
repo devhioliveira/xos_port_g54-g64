@@ -71,6 +71,16 @@
 
 ---
 
+## 📖 Notes
+
+<details>
+  <summary><b>Click to expand</b></summary>
+
+  #
+</details>
+
+---
+
 ## 📥 Installation Guide
 
 <details>
