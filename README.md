@@ -78,7 +78,11 @@
 
 - Always back up your data before flashing. If something goes wrong, it’s better to lose time than lose data — corporate wisdom.
 
-- Some useful applications are available in the Extras folder. 
+- Some useful applications are available in the Extras folder.
+
+- The default Infinix camera is available in the Extras folder on Google Drive.
+Both HIOS/XOS stock cameras have lower image quality and are unable to record at 60 FPS due to compatibility limitations.
+For the best possible quality and proper 60 FPS recording, it is recommended to use GCam.
 
 - Google Play Store comes **preinstalled by default**.
 
