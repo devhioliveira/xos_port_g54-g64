@@ -271,13 +271,6 @@ Secondary support: https://t.me/ezersuporte
   <img src="screenshots/apps.jpg" width="45%" />
 </p>
 
-### 🛠️ KernelSU Ultra & About Device & KaoriosToolbox
-<p align="center">
-  <img src="screenshots/ksu.jpg" width="45%" />
-  <img src="screenshots/about.jpg" width="45%" />
-  <img src="screenshots/kaorios.jpg" width="45%" />
-</p>
-
 ---
 
 ## 📥 Download
