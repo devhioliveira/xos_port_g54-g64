@@ -76,7 +76,116 @@
 <details>
   <summary><b>Click to expand</b></summary>
 
-  #
+- Always back up your data before flashing. If something goes wrong, it’s better to lose time than lose data — corporate wisdom.
+
+- Some useful applications are available in the Extras folder. 
+
+- Google Play Store comes **preinstalled by default**.
+
+- To ensure the **integrity system works properly**, please download **KaoriosToolbox.apk** from the **Extras** folder on Google Drive.  
+  With Kaorios Toolbox, you can customize several system options — explore at your own risk (and enjoyment).
+
+</details>
+
+---
+
+## ⏳ Changelogs
+
+<details>
+  <summary><b>Click to expand</b></summary>
+
+### 📱 XOS v15 | PORT  
+**Moto G54 5G / Moto G64 5G**  
+**Last Updated:** 05/01/2026  
+
+---
+
+## 🇧🇷 PT-BR — Changelog (Nova Atualização)
+
+### 🔧 Instalação
+- A XOS agora pode ser instalada diretamente pelo **recovery** ou via **ADB sideload**.  
+- O método via recovery/ADB sideload é o **recomendado**, pois utiliza um processo mais seguro, evitando problemas recorrentes em vários Moto G54, como:
+  - Falha de boot  
+  - Falta de espaço para flash da partição `system_ext`
+
+### 🧹 Apps e Modularização
+- Diversos aplicativos foram removidos do sistema base e tornados **opcionais**.  
+- O pacote de download inclui:
+  - ZIP principal da **XOS Port**
+  - Pasta **Extras**, contendo:
+    - Aplicativos originais da Infinix  
+    - Apps úteis  
+    - Módulos adicionais  
+
+### 🧱 Base do Sistema
+- A versão base da XOS não foi atualizada devido à **instabilidade das versões mais recentes**.  
+- A base atual foi mantida, porém com:
+  - Aplicativos atualizados  
+  - Recursos e ajustes internos revisados  
+
+### 🚀 Estabilidade e Recursos
+- Sistema mais estável e com mais recursos.  
+- Melhorias aplicadas em:
+  - Animações do sistema  
+  - Dynamic Bar  
+  - Página de Configurações  
+  - Wi-Fi  
+  - Bateria  
+  - NFC  
+
+### 🔐 Segurança e Root
+- **Strong Integrity** passando por padrão.  
+- **KernelSU Next** incluído por padrão.
+
+### 🧰 Extras
+- **KaoriosToolBox** adicionado.  
+  - Para habilitar benefícios como FPS desbloqueado, Strong Integrity e Google Fotos ilimitado, instale o APK presente na pasta **Extras**.  
+  - Para utilizar o contador de FPS e recursos avançados, é necessário conceder **permissão de Superusuário**.
+
+---
+
+## 🇺🇸 English — Changelog (New Update)
+
+### 🔧 Installation
+- XOS can now be flashed directly via **recovery** or **ADB sideload**.  
+- The recovery/ADB sideload method is **recommended**, as it provides a safer installation process and prevents common issues reported on several Moto G54 devices, such as:
+  - Boot failures  
+  - Insufficient space to flash the `system_ext` partition  
+
+### 🧹 Apps and Modularity
+- Many applications were removed from the base system and made **optional**.  
+- The download package includes:
+  - Main **XOS Port ZIP**
+  - **Extras** folder containing:
+    - Original Infinix applications  
+    - Useful apps  
+    - Additional modules  
+
+### 🧱 System Base
+- The XOS base version was not updated due to **stability issues in newer releases**.  
+- The current base was kept, but with:
+  - Updated applications  
+  - Revised features and internal improvements  
+
+### 🚀 Stability and Features
+- The system is now more stable and includes additional features.  
+- Improvements were made to:
+  - System animations  
+  - Dynamic Bar  
+  - Settings page  
+  - Wi-Fi  
+  - Battery  
+  - NFC  
+
+### 🔐 Security and Root
+- **Strong Integrity** passes by default.  
+- **KernelSU Next** is included by default.
+
+### 🧰 Extras
+- **KaoriosToolBox** has been added.  
+  - To enable features such as Unlocked FPS, Strong Integrity, and Unlimited Google Photos, install the APK available in the **Extras** folder.  
+  - Superuser permission is required to use the FPS overlay and advanced features.
+
 </details>
 
 ---
@@ -85,19 +194,36 @@
 
 <details>
 <summary><b>Port Flashing</b></summary>
-  
-### Be on stock firmware V1TDS35H.83-20-5-6 for best compatibility.
-Flashing the Port
-1. Boot into bootloader
-2. Extract port zip
-3. If you are on Windows, run flashWindows.bat.  
-   If you are on Linux, run flashLinux.sh in the terminal from the same folder as the port.
-4. Follow the on-screen preferences and select the desired options:  
-   - Install SukiSU Ultra (y/N)  
-   - Install custom recovery (y/N)  
-   - Format data (y/N)  
-6. Wait for the installer to finish and display the completion message.  
-Then press any key and enjoy XOS.
+
+### Method 1: Recovery Installation (Recommended)
+
+If you choose the recovery method, the process is straightforward:
+
+1. Boot your device into **recovery mode**.
+2. Perform a **Format Data** to ensure a clean installation.
+3. Reboot back into **recovery mode** again.
+4. Copy the **XOS ZIP** to your internal storage.
+5. Go to **Install**, select the ZIP file, and **swipe to confirm** the flash.
+
+If you are unable to copy the file to internal storage, you can alternatively use:
+- **USB OTG**
+- **MicroSD card** (if available)
+
+---
+
+### Method 2: ADB Sideload
+
+ADB Sideload is also a simple and reliable method:
+
+1. Boot your device into **recovery mode**.
+2. Navigate to **ADB Sideload**  
+   > The location of this option may vary depending on the recovery.  
+   > In **TWRP**, go to **Advanced → ADB Sideload**.
+3. On your PC terminal, run:
+   ```bash
+   adb sideload <drag and drop the XOS ZIP here>
+   ```
+4. Wait for the flashing process to complete, then reboot the system.
 </details>
 
 ---
@@ -105,9 +231,8 @@ Then press any key and enjoy XOS.
 ## 📡 Credits
 Huge thanks to all contributors and supporters:
 
-- @G54USERY (EzerMod) – Made the port bootable  
+- @G54USERY (EzerMod) – For starting this project  
 - @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
-- @ussr_1674 (Soviet) – Creator of the OrangeFox custom recovery for the G54/G64  
 - @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations  
 
 ❤️ And to the community that helped make XOS a stable and reliable port.
