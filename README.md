@@ -271,10 +271,11 @@ Secondary support: https://t.me/ezersuporte
   <img src="screenshots/apps.jpg" width="45%" />
 </p>
 
-### 🛠️ SukiSU Ultra & About Device
+### 🛠️ KernelSU Ultra & About Device & KaoriosToolbox
 <p align="center">
-  <img src="screenshots/sukisu.jpg" width="45%" />
+  <img src="screenshots/ksu.jpg" width="45%" />
   <img src="screenshots/about.jpg" width="45%" />
+  <img src="screenshots/kaorios.jpg" width="45%" />
 </p>
 
 ---
