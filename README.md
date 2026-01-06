@@ -280,9 +280,16 @@ https://t.me/MotorolaMotoG54PortsBR/
 
 ## 📥 Download
 
-### 🔗 ROM Download (XOS 15.0.3.127 EU Stable)
-➡️ **[Click here to download](https://drive.google.com/file/d/19jCDLsc7Qcr-X1gNz12euMWKnrIVXRWR/view?usp=drive_link)**
----
-➡️ **[Extras Folder](https://drive.google.com/drive/folders/1LqG-oSlsYm3cQ1vj0d_rR9cssBiPocjl)**
+### 🔗 XOS 15.0.3.127 — EU Stable
+
+- **ROM:**  
+  👉 [Download via Google Drive](https://drive.google.com/file/d/19jCDLsc7Qcr-X1gNz12euMWKnrIVXRWR/view?usp=drive_link)
+
+- **Integrity Check:**  
+  🔑 **MD5:** `A741803AD30C3AB08B854B604C1F8FCD`  
+  *(Always verify the checksum before flashing.)*
+
+- **Extras:**  
+  📦 [Extras Folder](https://drive.google.com/drive/folders/1LqG-oSlsYm3cQ1vj0d_rR9cssBiPocjl)  
 
 ---
