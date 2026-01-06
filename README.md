@@ -280,6 +280,6 @@ Secondary support: https://t.me/ezersuporte
 ## 📥 Download
 
 ### 🔗 ROM Download (XOS 15.0.3.127 EU Stable)
-➡️ **[Click here to download](https://drive.google.com/file/d/1bzB5sr8s-12HPrcP8CZdqVENgrTT27VS/view?usp=sharing)**
+➡️ **[Click here to download](https://drive.google.com/file/d/19jCDLsc7Qcr-X1gNz12euMWKnrIVXRWR/view?usp=drive_link)**
 
 ---
