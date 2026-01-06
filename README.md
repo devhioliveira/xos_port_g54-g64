@@ -237,7 +237,8 @@ Huge thanks to all contributors and supporters:
 
 - @G54USERY (EzerMod) – For starting this project  
 - @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
-- @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations  
+- @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations
+- @Kousei_jp - Thank you for providing the Kaorios Toolbox. 
 
 ❤️ And to the community that helped make XOS a stable and reliable port.
 ---
