@@ -201,25 +201,33 @@ For the best possible quality and proper 60 FPS recording, it is recommended to 
 
 ### Method 1: Recovery Installation (Recommended)
 
-If you choose the recovery method, the process is straightforward:
+> ⚠️ **IMPORTANT:** This port **REQUIRES a custom recovery**.  
+> Stock recovery **will NOT work**. If you are not using a custom recovery, **do not even try**.
 
-1. Boot your device into **recovery mode**.
+You must install this port using **one of the supported custom recoveries**:
+- **[TWRP](https://drive.google.com/file/d/1bze5K3uk-C6TAVPXHJ0VLOoNIYIx-OLs/view?usp=drive_link)**
+- **[OrangeFox (OFOX)](https://drive.google.com/file/d/1guAN3IIYP-t-NAWYXJnsPundINDVaWDf/view?usp=drivesdk)**
+- **[PitchBlack Recovery (PBRP)](https://drive.google.com/file/d/1XEPGRTUcHspBFpv5jv2xCs8_LtKhH9L0/view?usp=drivesdk)**
+
+Installation steps:
+
+1. Boot your device into **custom recovery mode** (TWRP / OFOX / PBRP).
 2. Perform a **Format Data** to ensure a clean installation.
-3. Reboot back into **recovery mode** again.
+3. Reboot back into **custom recovery mode**.
 4. Copy the **XOS ZIP** to your internal storage.
 5. Go to **Install**, select the ZIP file, and **swipe to confirm** the flash.
 
 If you are unable to copy the file to internal storage, you can alternatively use:
 - **USB OTG**
-- **MicroSD card** (if available)
+- **MicroSD card** (if supported by your device)
 
 ---
 
-### Method 2: ADB Sideload
+### Method 2: ADB Sideload (Custom Recovery Required)
 
-ADB Sideload is also a simple and reliable method:
+ADB Sideload is also supported, but **still requires a custom recovery**:
 
-1. Boot your device into **recovery mode**.
+1. Boot your device into **custom recovery mode**.
 2. Navigate to **ADB Sideload**  
    > The location of this option may vary depending on the recovery.  
    > In **TWRP**, go to **Advanced → ADB Sideload**.
@@ -238,7 +246,8 @@ Huge thanks to all contributors and supporters:
 - @G54USERY (EzerMod) – For starting this project  
 - @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
 - @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations
-- @Kousei_jp - Thank you for providing the Kaorios Toolbox. 
+- @Kousei_jp - Thank you for providing the Kaorios Toolbox.
+- @ussr_1674 – Thanks you for providing the custom recoveries
 
 ❤️ And to the community that helped make XOS a stable and reliable port.
 ---
